@@ -6,7 +6,7 @@ import org.androidannotations.annotations.EBean;
  * Created by faizf on 2/11/2017.
  */
 @EBean
-public final class IntentManager {
+public class IntentManager {
 
     public interface Code {
         int FORM = 6001;

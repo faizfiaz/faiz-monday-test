@@ -26,21 +26,16 @@ import org.androidannotations.annotations.res.StringRes;
 /**
  * Created by faizf on 2/11/2017.
  */
-@EFragment
 public class BaseFragment<T> extends Fragment {
 
     protected static CallbackFragment callBackFragment;
 
     protected int idFrame;
 
-    @Bean
     protected UtilsLayout utilsLayout;
-    @Bean
     protected Util util;
     protected ProgressDialog progressDialog;
 
-    @StringRes(R.string.app_name)
-    protected String nameApp;
 
 
     protected T callback;
@@ -53,6 +48,9 @@ public class BaseFragment<T> extends Fragment {
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        utilsLayout = new UtilsLayout();
+        util = new Util();
+
     }
 
     @Override

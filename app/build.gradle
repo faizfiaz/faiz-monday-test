@@ -68,13 +68,12 @@ android {
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile fileTree(include: ['*.jar'], dir: 'libs')
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
     compile 'com.android.support:appcompat-v7:25.3.1'
     testCompile 'junit:junit:4.12'
-    compile project(':rxconnection')
     compile 'com.android.support:design:25.3.1'
     compile 'com.android.support:cardview-v7:25.3.1'
     compile 'de.hdodenhof:circleimageview:2.1.0'
@@ -84,15 +83,15 @@ dependencies {
     compile 'com.daimajia.slider:library:1.1.5@aar'
     compile 'com.theartofdev.edmodo:android-image-cropper:1.2.+'
     compile 'com.google.android.gms:play-services-maps:10.0.1'
-
     //Android Annotation and Lombok
     compile 'org.androidannotations:androidannotations-api:3.0.1'
     apt 'org.androidannotations:androidannotations:3.0.1'
     apt 'org.projectlombok:lombok:1.12.6'
     provided 'org.projectlombok:lombok:1.12.6'
-
-    compile 'com.squareup.retrofit2:converter-gson:2.0.2' //Retrofit GSON Support
-    compile 'com.squareup.retrofit2:retrofit:2.1.0' //Connection using Retrofit
-    compile 'com.squareup.retrofit2:adapter-rxjava:2.0.2' //Retrofit RX Java Support
-
+    compile 'com.squareup.retrofit2:converter-gson:2.0.2'
+    //Retrofit GSON Support
+    compile 'com.squareup.retrofit2:retrofit:2.1.0'
+    //Connection using Retrofit
+    compile 'com.squareup.retrofit2:adapter-rxjava:2.0.2'
+    //Retrofit RX Java Support
 }
