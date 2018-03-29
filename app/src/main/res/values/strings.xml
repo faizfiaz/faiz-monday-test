@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Visit Malang</string>
+    <string name="app_name">Project Base</string>
     <string name="error_permission_get_account">Get Accounts permission needed. Please allow in App Settings for additional functionality.</string>
     <string name="crop">Potong</string>
     <string name="home">Menu Utama</string>

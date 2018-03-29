@@ -3,10 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/base-mvp.iml" filepath="$PROJECT_DIR$/base-mvp.iml" />
-      <module fileurl="file://$PROJECT_DIR$/rxconnection/rxconnection.iml" filepath="$PROJECT_DIR$/rxconnection/rxconnection.iml" />
-      <module fileurl="file://$PROJECT_DIR$/survey-app-sam.iml" filepath="$PROJECT_DIR$/survey-app-sam.iml" />
+      <module fileurl="file://D:\AndroProject\base-android\base-mvp\rxconnection\rxconnection.iml" filepath="D:\AndroProject\base-android\base-mvp\rxconnection\rxconnection.iml" />
+      <module fileurl="file://D:\AndroProject\base-android\base-mvp\survey-app-sam.iml" filepath="D:\AndroProject\base-android\base-mvp\survey-app-sam.iml" />
     </modules>
   </component>
 </project>
