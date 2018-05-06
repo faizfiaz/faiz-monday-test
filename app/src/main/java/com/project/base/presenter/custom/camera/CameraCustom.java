@@ -89,7 +89,7 @@ public class CameraCustom extends AppCompatActivity implements CallBackCameraUti
         showImage.setAspectRatio(SIZE_W, SIZE_H);
         showImage.setGuidelines(CropImageView.Guidelines.ON);
         showImage.setCropShape(CropImageView.CropShape.RECTANGLE);
-        showImage.setScaleType(ImageView.ScaleType.FIT_CENTER);
+        showImage.setScaleType(CropImageView.ScaleType.FIT_CENTER);
 
         galery.setBackground(hideGalery ? getResources().getDrawable(R.drawable.gallery_hover_disabled) : getResources().getDrawable(R.drawable.custom_gallery));
         galery.setEnabled(hideGalery ? false : true);
