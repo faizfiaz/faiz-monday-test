@@ -25,7 +25,7 @@ android {
 
     compileSdkVersion varExt["androidCompileSdkVersion"]
     defaultConfig {
-        applicationId "com.ragamindo.seller"
+        applicationId "com.project.base"
         minSdkVersion varExt["androidMinSdkVersion"]
         targetSdkVersion varExt["androidTargetSdkVersion"]
         versionCode varExt["androidVersionCode"]

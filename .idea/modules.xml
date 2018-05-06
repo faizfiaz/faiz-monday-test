@@ -3,9 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/base-mvp.iml" filepath="$PROJECT_DIR$/base-mvp.iml" />
+      <module fileurl="file://D:\AndroProject\Projectan\test-cicilcoid-project\base-mvp.iml" filepath="D:\AndroProject\Projectan\test-cicilcoid-project\base-mvp.iml" />
       <module fileurl="file://D:\AndroProject\base-android\base-mvp\rxconnection\rxconnection.iml" filepath="D:\AndroProject\base-android\base-mvp\rxconnection\rxconnection.iml" />
       <module fileurl="file://D:\AndroProject\base-android\base-mvp\survey-app-sam.iml" filepath="D:\AndroProject\base-android\base-mvp\survey-app-sam.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test-cicilcoid-project.iml" filepath="$PROJECT_DIR$/test-cicilcoid-project.iml" />
     </modules>
   </component>
 </project>

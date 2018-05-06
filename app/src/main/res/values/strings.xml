@@ -15,4 +15,5 @@
     <string name="yes">YA</string>
     <string name="no">TIDAK</string>
     <string name="content_progress">Mohon tunggu…</string>
+    <string name="text_btn_detail">Detail</string>
 </resources>
