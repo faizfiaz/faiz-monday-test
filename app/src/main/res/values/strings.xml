@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Project Base</string>
+    <string name="app_name">Pawoon Test Project</string>
     <string name="error_permission_get_account">Get Accounts permission needed. Please allow in App Settings for additional functionality.</string>
     <string name="crop">Potong</string>
     <string name="home">Menu Utama</string>
@@ -16,4 +16,5 @@
     <string name="no">TIDAK</string>
     <string name="content_progress">Mohon tunggu…</string>
     <string name="text_btn_detail">Detail</string>
+    <string name="text_button_todo_list">TODO LIST</string>
 </resources>

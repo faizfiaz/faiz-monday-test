@@ -3,7 +3,7 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <com.project.base.presenter.custom.textview.CustomTextViewRegular
+    <com.pawoon.test.presenter.custom.textview.CustomTextViewRegular
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center"

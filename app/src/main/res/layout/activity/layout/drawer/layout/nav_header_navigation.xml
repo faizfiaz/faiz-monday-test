@@ -28,7 +28,7 @@
             android:background="@drawable/bg_header_profile"
             android:padding="1.5dp"/>
 
-        <com.project.base.presenter.custom.textview.CustomTextViewRegular
+        <com.pawoon.test.presenter.custom.textview.CustomTextViewRegular
             android:id="@+id/name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -38,7 +38,7 @@
             android:textSize="@dimen/text_m"
             android:text="ANDROID"/>
 
-        <com.project.base.presenter.custom.textview.CustomTextViewRegular
+        <com.pawoon.test.presenter.custom.textview.CustomTextViewRegular
             android:id="@+id/userType"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

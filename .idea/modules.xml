@@ -6,7 +6,8 @@
       <module fileurl="file://D:\AndroProject\Projectan\test-cicilcoid-project\base-mvp.iml" filepath="D:\AndroProject\Projectan\test-cicilcoid-project\base-mvp.iml" />
       <module fileurl="file://D:\AndroProject\base-android\base-mvp\rxconnection\rxconnection.iml" filepath="D:\AndroProject\base-android\base-mvp\rxconnection\rxconnection.iml" />
       <module fileurl="file://D:\AndroProject\base-android\base-mvp\survey-app-sam.iml" filepath="D:\AndroProject\base-android\base-mvp\survey-app-sam.iml" />
-      <module fileurl="file://$PROJECT_DIR$/test-cicilcoid-project.iml" filepath="$PROJECT_DIR$/test-cicilcoid-project.iml" />
+      <module fileurl="file://D:\AndroProject\Projectan\test-pawoon-project\test-cicilcoid-project.iml" filepath="D:\AndroProject\Projectan\test-pawoon-project\test-cicilcoid-project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test-pawoon-project.iml" filepath="$PROJECT_DIR$/test-pawoon-project.iml" />
     </modules>
   </component>
 </project>

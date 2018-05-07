@@ -25,7 +25,7 @@ android {
 
     compileSdkVersion varExt["androidCompileSdkVersion"]
     defaultConfig {
-        applicationId "com.project.base"
+        applicationId "com.pawoon.test"
         minSdkVersion varExt["androidMinSdkVersion"]
         targetSdkVersion varExt["androidTargetSdkVersion"]
         versionCode varExt["androidVersionCode"]
@@ -54,15 +54,15 @@ android {
 
     productFlavors {
         prod {
-            applicationId "com.project.base"
+            applicationId "com.pawoon.test"
             buildConfigField "String", "URL_BASE", varExt["urlprod"]
         }
         dev {
-            applicationId "com.project.base.dev"
+            applicationId "com.pawoon.test.dev"
             buildConfigField "String", "URL_BASE", varExt["urldev"]
         }
         local {
-            applicationId "com.project.base.local"
+            applicationId "com.pawoon.test.local"
             buildConfigField "String", "URL_BASE", varExt["urllocal"]
         }
     }
