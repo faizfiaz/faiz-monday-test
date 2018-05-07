@@ -13,7 +13,7 @@ ext {
     //Android
     androidVersionCode = 1
     androidBuildToolsVersion = "27.0.2"
-    androidMinSdkVersion = 16
+    androidMinSdkVersion = 14
     androidTargetSdkVersion = 27
     androidCompileSdkVersion = 27
 
